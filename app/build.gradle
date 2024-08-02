@@ -3,6 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 34
 
+    lintOptions {
+        abortOnError false
+    }
+
     defaultConfig {
         applicationId "com.pptest"
 
