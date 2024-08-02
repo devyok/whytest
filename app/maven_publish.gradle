@@ -14,7 +14,7 @@ afterEvaluate {
                 artifactId 'whytest'
                 version '1.2.2'             // Your package version
 //                artifact publishArtifact    //Example: *./target/myJavaClasses.jar*
-                artifact "build/outputs/aar/pcore-release.aar"//aar包的目录
+                artifact "xxx/pcore-release.aar"//aar包的目录
 
                 //带上依赖 ，否则会报错
 //                pom.withXml {
