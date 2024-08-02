@@ -1,2 +1,3 @@
 rootProject.name = "whytest"
 include ':app'
+include ':pcore'
